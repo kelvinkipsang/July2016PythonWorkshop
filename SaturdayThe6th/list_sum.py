@@ -11,9 +11,24 @@ def sum_digits(a):
 			-Returns the sum of all the digits in a list
 	'''
 	# Code goes here:
+	list=[]
+	for x in a:
+		x=str(x)
+		for ch in x:
+			list.append(int(ch))
 
 
 
+	sum=0
+	for y in list:
+		sum+=y
+
+	print sum
+
+
+
+
+sum_digits([11,30,45])
 """
 Test cases include:
 
